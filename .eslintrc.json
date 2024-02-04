@@ -15,10 +15,12 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "plugins": ["@typescript-eslint", "react"],
+  "plugins": ["@typescript-eslint", "react", "simple-import-sort"],
   "rules": {
     "react/react-in-jsx-scope": "off",
     "prettier/prettier": ["error", { "semi": false }],
-    "comma-dangle": [2, "always-multiline"]
+    "comma-dangle": [2, "always-multiline"],
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error"
   }
 }

@@ -1,5 +1,6 @@
-import { useState } from "react"
 import "./Header.css"
+
+import { useState } from "react"
 
 export const Header = () => {
   const [Toggle, showMenu] = useState(false)
@@ -8,7 +9,7 @@ export const Header = () => {
     <header className="header">
       <nav className="nav container">
         <a href="index.html" className="nav__logo">
-          Smith
+          Dorosin
         </a>
 
         <div className={`nav__menu ${Toggle && "show-menu"}`}>
