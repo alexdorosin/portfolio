@@ -1,10 +1,14 @@
 import "./App.css"
-import { Footer, Header } from "./components"
+
+import { Footer, Header, Home } from "./components"
 
 function App() {
   return (
     <>
       <Header />
+      <main className="main">
+        <Home />
+      </main>
       <Footer />
     </>
   )
