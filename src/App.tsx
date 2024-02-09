@@ -7,6 +7,7 @@ import {
   Header,
   Home,
   Qualification,
+  ScrollUp,
   Services,
   Skills,
   Testimonials,
@@ -26,6 +27,7 @@ function App() {
         <Contact />
       </main>
       <Footer />
+      <ScrollUp />
     </>
   )
 }
