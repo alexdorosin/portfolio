@@ -1,6 +1,16 @@
 import "./App.css"
 
-import { Footer, Header, Home } from "./components"
+import {
+  About,
+  Contact,
+  Footer,
+  Header,
+  Home,
+  Qualification,
+  Services,
+  Skills,
+  Testimonials,
+} from "./components"
 
 function App() {
   return (
@@ -8,6 +18,12 @@ function App() {
       <Header />
       <main className="main">
         <Home />
+        <About />
+        <Skills />
+        <Services />
+        <Qualification />
+        <Testimonials />
+        <Contact />
       </main>
       <Footer />
     </>
