@@ -11,6 +11,7 @@ import {
   Services,
   Skills,
   Testimonials,
+  Work,
 } from "./components"
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Skills />
         <Services />
         <Qualification />
+        <Work />
         <Testimonials />
         <Contact />
       </main>
